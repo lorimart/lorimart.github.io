@@ -14,27 +14,61 @@ body {
 /* ==========================================================================
    2. Layout & Box Model Containers
    ========================================================================== */
+header {
+    text-align: center; /* Centers your name and navigation links */
+    margin-bottom: 20px;
+}
+
+header nav ul {
+    list-style-type: none; /* Removes bullet points from nav items */
+    padding: 0;
+    margin: 15px 0 0 0;
+    display: flex;
+    justify-content: center; /* Centers navigation across the page */
+    gap: 25px; /* Creates clean spacing between menu options */
+}
+
+header nav a {
+    border-bottom: none; /* Keeps nav links clean without underline bars */
+}
+
 main {
     max-width: 700px;
-    margin: 40px auto;          /* Centers container horizontally */
+    margin: 40px auto; /* Centers container horizontally */
     padding: 30px;
-    background-color: #ffffff;  /* Bright white surface for text readability */
-    border: 1px solid #2c2e2c;  /* Clean charcoal border */
+    background-color: #ffffff; /* Bright white surface for text readability */
+    border: 1px solid #2c2e2c; /* Clean charcoal border */
     border-radius: 6px;
 }
 
-/* Custom Div Rule */
-div {
+/* Specific Contact Box Button Layout */
+.contact-box {
     width: 220px;
-    height: auto;               /* Allows text to scale safely */
-    background-color: #8d185f;  /* Rich berry background */
-    color: #ffffff;             /* Crisp white text for contrast */
-    border: 2px solid #2c2e2c;  /* Solid charcoal border */
+    height: auto; /* Allows text to scale safely */
+    background-color: #4db7cd; /* Soft teal background */
+    border: 2px solid #2c2e2c; /* Solid charcoal border */
     padding: 15px;
-    margin: 25px 0;             /* Vertical separation from surrounding text */
-    font-weight: bold;
+    margin: 30px auto; /* Centers the button box horizontally inside main */
     text-align: center;
     border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.contact-box a {
+    color: #ffffff; /* Forces link text to be crisp white */
+    border-bottom: none; /* Removes line bar beneath button text */
+}
+
+.contact-box a:hover {
+    color: #8d185f; /* Rich berry interaction text shift */
+}
+
+/* Center Footer Content */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 1px solid #2c2e2c; /* Clear visual divider block */
 }
 
 /* ==========================================================================
@@ -42,9 +76,9 @@ div {
    ========================================================================== */
 h1 {
     font-size: 2.4rem;
-    color: #4db7cd;             /* Soft teal heading */
+    color: #8d185f;             /* Rich berry heading */
     margin-top: 0;
-    margin-bottom: 12px;
+    margin-bottom: 18px;
 }
 
 h2 {
