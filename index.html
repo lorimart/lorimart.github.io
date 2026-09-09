@@ -4,31 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lori Martin - CMPA 3301 - Personal Introduction Webpage</title>
+    <!-- Link to stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-    <main>
+    <header>
         <h1>Lori Martin</h1>
-
-        <h2>Applied Personal Finance Major & Computing Applications Minor</h2>
-
-        <p>My primary goal for this course is to build a strong foundational understanding of web development structure, beginning with semantic HTML. Because my computing applications minor deeply interests me, I want to learn to write clean, compliant coade that bridges the gap between abstract technology concepts and real-world execution.</p>
-
-        <p>Professionally, I balance life as a single mother of two young boys while working full-time as a high-risk maternal fetal medicine sonographer and finishing my senior year at Texas Tech University. My long-term career direction involves blending my expertise in healthcare and personal finance with technical computing skills to open up unique development or analytical opporunities.</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">My Skills</a></li>
+                <li><a href="#interests/hobbies">My Interests and Hobbies</a></li>
+                <li><a href="#contact">Contact Me!</a></li>
+            </ul>
+        </nav>
+    </header>
     
-        <ul>
-            <li>Photography</li>
-            <li>Gaming</li>
-            <li>Watching baseball and ice hockey</li>
-            <li>Traveling with family and making memories</li>
-        </ul>
+    <main>
+        <!-- About Me Section -->
+        <section id="about"> 
+            <h2>Applied Personal Finance Major & Computing Applications Minor</h2>
+            <p>My primary goal for this course is to build a strong foundational understanding of web development structure, beginning with semantic HTML. Because my computing applications minor deeply interests me, I want to learn to write clean, compliant coade that bridges the gap between abstract technology concepts and real-world execution.</p>
+            <p>Professionally, I balance life as a single mother of two young boys while working full-time as a high-risk maternal fetal medicine sonographer and finishing my senior year at Texas Tech University. My long-term career direction involves blending my expertise in healthcare and personal finance with technical computing skills to open up unique development or analytical opporunities.</p>
+        </section>
 
-                <div>This is a box.</div>
+        <!-- My Skills Section -->
+        <section id="skills">
+            <h2>My Skills</h2>
+            <p>My current skill set includes:</p>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Personal Finance Analysis</li>
+                <li>Data & Record Keeping</li>
+                <li>Analytical Problem Solving</li>
+                <li>Maternal-Fetal Medicine Sonography</li>
+            </ul>
+        </section>
+        
+        <!-- My Interests and Hobbies Section -->
+        <section id="interests/hobbies">
+            <h2>My Interests and Hobbies</h2>
+            <ul>
+                <li>Photography</li>
+                <li>Gaming</li>
+                <li>Watching baseball and ice hockey</li>
+                <li>Traveling with family and making memories</li>
+            </ul>
+            </section>
 
-        <p>
+        <!--Contact Me Section-->
+        <div class="contact-box">
+            <a href="mailto:lorimart@ttu.edu">Email me!</a>            
+        </div>
+
+        <p style="text-align: center;">
             <a href="https://github.com/lorimart" target="_blank">My GitHub Profile</a>
         </p>
     </main>
+
+    <!-- Footer & Contact Info-->
+    <footer id="contact">
+        <p>Email: <a href="mailto:lorimart@ttu.edu">lorimart@ttu.edu</a> | Phone: <a href="tel:+15756935311">(575) 693-5311</a></p>
+        <p>2026 - Lori Martin</p>
+    </footer>
+
 </body>
 </html>
