@@ -1,0 +1,88 @@
+/* ==========================================================================
+   1. Typography & Global Styles
+   ========================================================================== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #2c2e2c;             /* Deep charcoal text */
+    background-color: #dfdfdb;  /* Warm off-white canvas background */
+    margin: 0;
+    padding: 20px;
+}
+
+/* ==========================================================================
+   2. Layout & Box Model Containers
+   ========================================================================== */
+main {
+    max-width: 700px;
+    margin: 40px auto;          /* Centers container horizontally */
+    padding: 30px;
+    background-color: #ffffff;  /* Bright white surface for text readability */
+    border: 1px solid #2c2e2c;  /* Clean charcoal border */
+    border-radius: 6px;
+}
+
+/* Custom Div Rule */
+div {
+    width: 220px;
+    height: auto;               /* Allows text to scale safely */
+    background-color: #8d185f;  /* Rich berry background */
+    color: #ffffff;             /* Crisp white text for contrast */
+    border: 2px solid #2c2e2c;  /* Solid charcoal border */
+    padding: 15px;
+    margin: 25px 0;             /* Vertical separation from surrounding text */
+    font-weight: bold;
+    text-align: center;
+    border-radius: 4px;
+}
+
+/* ==========================================================================
+   3. Element Headings & Lists
+   ========================================================================== */
+h1 {
+    font-size: 2.4rem;
+    color: #4db7cd;             /* Soft teal heading */
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+h2 {
+    font-size: 1.25rem;
+    color: #8d185f;             /* Rich berry sub-heading */
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-weight: 600;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+ul {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+    color: #2c2e2c;
+    list-style-type: square;    /* Subtle visual variation */
+}
+
+/* ==========================================================================
+   4. Interactive Elements (Links)
+   ========================================================================== */
+a {
+    color: #5757ae;             /* Slate blue interactive links */
+    text-decoration: none;      /* Removes default underline */
+    font-weight: bold;
+    border-bottom: 1px solid #5757ae;
+    transition: color 0.15s ease-in-out;
+}
+
+a:hover {
+    color: #4db7cd;             /* Shifts to soft teal on interaction */
+    border-bottom-color: #4db7cd;
+}
